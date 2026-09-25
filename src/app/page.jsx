@@ -21,7 +21,7 @@ export default async function HomePage() {
   return (
     <div>
       <Banner />
-      {/* <Library workouts={workouts} /> */}
+      <Library workouts={workouts} />
     </div>
   );
 }
