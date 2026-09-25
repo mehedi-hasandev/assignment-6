@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FitLog
 
-## Getting Started
+A sleek, dark-themed gym companion and workout tracker built to help athletes pick movements, log daily training sessions, and track their fitness progress efficiently.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js 16** (App Router, Turbopack)
+- **React 19**
+- **Tailwind CSS**
+- **Context API** (State Management & LocalStorage Persistence)
+- **React Toastify** (Interactive Feedback & Alerts)
+- **Next/Image** (Optimized Asset Delivery)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Responsive 3x4 Workout Grid:** Fetches lifts from a remote API and presents them in an adaptable, modern card layout (up to a 3x4 grid on large screens).
+2. **Dynamic Workout Details:** Displays individual exercise instructions, target muscle groups, equipment requirements, difficulty, and calories burned.
+3. **Daily Workout Plan with 5-Lift Cap:** Allows users to schedule up to 5 daily workouts with real-time validation and alert toast notifications to prevent overtraining.
+4. **Interactive Metrics & Calorie Tracking:** Automatically computes total training duration and aggregate calories burned across scheduled exercises.
+5. **Progress Management & Task Completion:** Supports toggling workouts as complete ("Mark as Done"), sorting by calories/duration/rating, and saving routines for later sessions.
