@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
          <PlanProvider>
           <Navbar />
           <main className="flex-grow">{children}</main>
-        {/* <Footer /> */}
+        <Footer />
           <ToastContainerWrapper />
         </PlanProvider>
       </body>
