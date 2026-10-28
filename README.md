@@ -7,7 +7,7 @@
 FitLog is a sleek, dark-themed gym companion designed for athletes and fitness enthusiasts who want a structured, efficient way to manage workouts, track daily routines, and monitor performance progress.
 
 ## Live Link
-https://assignment-fitlog-omega.vercel.app/
+https://assignment-6-orcin-ten.vercel.app/
 
 ---
 
