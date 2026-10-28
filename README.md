@@ -2,41 +2,37 @@
 
 ## ✨ Project Overview
 
-![Website Screenshot](https://github.com/Ovi-web/assignment-fitlog/blob/main/src/assets/screencapture-assignment-fitlog-omega-vercel-app-2026-10-05-00_44_42.png)
-
-FitLog is a sleek, dark-themed gym companion designed for athletes and fitness enthusiasts who want a structured, efficient way to manage workouts, track daily routines, and monitor performance progress.
-
-## Live Link
-https://assignment-6-orcin-ten.vercel.app/
+FitLog is a sleek, dark-themed gym companion and workout tracker built to help athletes choose exercises, organize daily training sessions, and monitor fitness progress efficiently.
 
 ---
 
 ## 🚀 Technologies Used
 
-- **Next.js (App Router):** For smooth routing, responsive UI rendering, and modern app architecture.
-- **Tailwind CSS:** For sleek styling, responsive layouts, and polished dark-mode design.
-- **React:** For interactive components and state-driven UI updates.
-- **React Toastify:** For instant user feedback and notifications.
-- **LocalStorage API:** For saving workout plans and progress across page reloads.
+- **Next.js (App Router):** For modern routing and efficient app performance.
+- **React:** For interactive, component-based UI development.
+- **Tailwind CSS:** For responsive and polished dark-mode styling.
+- **Context API:** For local state management and persistence.
+- **React Toastify:** For instant feedback and user alerts.
+- **Next/Image:** For optimized image delivery.
 
 ---
 
 ## ✨ 5 Key Features
 
-1. **Comprehensive Workout Library**
-   Browse a responsive grid of exercises with key details like equipment, duration, calories burned, and ratings.
+1. **Responsive 3x4 Workout Grid**
+   Browse workouts in a modern card layout that adapts well across large and small screens.
 
-2. **Today's Plan & 5-Lift Cap System**
-   Build a personalized daily workout plan with a smart 5-lift limit to help users stay focused and avoid overtraining.
+2. **Dynamic Workout Details**
+   View instructions, target muscle groups, equipment requirements, difficulty, and calories burned for each exercise.
 
-3. **Persistent Local Storage**
-   Save your routines and progress automatically so your training data remains available even after refreshing the page.
+3. **Daily Workout Plan with 5-Lift Cap**
+   Schedule up to 5 exercises per day with validations and toast alerts to help prevent overtraining.
 
-4. **Interactive Dashboard & Completion Tracking**
-   Mark workouts as complete, organize tasks, manage saved routines, and track progress with a clean dashboard experience.
+4. **Interactive Metrics & Calorie Tracking**
+   Automatically calculate workout duration and total calories burned across the planned routine.
 
-5. **Dynamic Details & Instant Feedback**
-   View detailed workout instructions and metrics while receiving real-time toast alerts for every important action.
+5. **Progress Management & Task Completion**
+   Mark workouts as done, sort by rating or calories, and save routines for future sessions.
 
 ---
 
@@ -52,8 +48,6 @@ cd assignment-6
 ```
 
 ### 2. Install Dependencies
-
-Make sure you have Node.js installed, then run:
 
 ```bash
 npm install
@@ -73,7 +67,12 @@ yarn dev
 pnpm dev
 ```
 
+### 4. Open in Browser
+
+Open http://localhost:3000 to view the application in your browser.
+
+---
 
 ## 📌 Summary
 
-FitLog is built to make daily training simple, efficient, and motivating. It brings together workout discovery, planning, tracking, and progress management in one clean dashboard for better fitness consistency.
+FitLog helps users stay organized, train smarter, and keep track of progress in a clean, modern fitness dashboard.
