@@ -2,6 +2,8 @@
 
 ## ✨ Project Overview
 
+![Project Screenshot](https://raw.githubusercontent.com/Ovi-web/assignment-fitlog/main/src/assets/screencapture-assignment-fitlog-omega-vercel-app-2026-10-05-00_44_42.png)
+
 FitLog is a sleek, dark-themed gym companion and workout tracker built to help athletes choose exercises, organize daily training sessions, and monitor fitness progress efficiently.
 
 ---
